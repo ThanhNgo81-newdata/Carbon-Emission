@@ -1,5 +1,7 @@
 # Carbon-Emission
-```SELECT * FROM industry_groups LIMIT 5```
+```
+SELECT * FROM industry_groups LIMIT 5
+```
 
 | id | industry_group                                                         | 
 | -: | ---------------------------------------------------------------------: | 
