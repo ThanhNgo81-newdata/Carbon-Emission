@@ -5,6 +5,7 @@ Carbon emissions play a crucial role in the environment, accounting for over 75%
 Through this analysis, we hope to gain an understanding of the environmental impact of different industries and contribute to making informed decisions in sustainable development.
 
 # Carbon-Emission
+THEY ARE HAVE 5 TABLE
 '''
 SELECT * FROM product_emissions LIMIT 5;
 '''
@@ -28,3 +29,25 @@ SELECT * FROM industry_groups LIMIT 5
 | 3  | "Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber" | 
 | 4  | "Mining - Iron, Aluminum, Other Metals"                                | 
 | 5  | "Pharmaceuticals, Biotechnology & Life Sciences"                       | 
+
+'''
+SELECT * FROM companies LIMIT 5;
+'''
+| id | company_name                  | 
+| -: | ----------------------------: | 
+| 1  | "Autodesk, Inc."              | 
+| 2  | "Casio Computer Co., Ltd."    | 
+| 3  | "Cisco Systems, Inc."         | 
+| 4  | "CNX Coal Resources, LP"      | 
+| 5  | "Coca-Cola Enterprises, Inc." | 
+
+'''
+SELECT * FROM countries LIMIT 5;
+'''
+| id | country_name | 
+| -: | -----------: | 
+| 1  | Australia    | 
+| 2  | Belgium      | 
+| 3  | Brazil       | 
+| 4  | Canada       | 
+| 5  | Chile        | 
